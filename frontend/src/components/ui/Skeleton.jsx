@@ -13,7 +13,7 @@ const Skeleton = ({ className = "", width = "100%", height = "1rem" }) => {
   );
 };
 
-// ✅ Add PropTypes Validation
+// Add PropTypes Validation
 Skeleton.propTypes = {
   className: PropTypes.string,
   width: PropTypes.string,
