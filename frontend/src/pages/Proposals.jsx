@@ -22,7 +22,6 @@ const mockProposals = [
   },
 ];
 
-
 const Proposals = () => {
   const [proposals, setProposals] = useState([]);
   const [title, setTitle] = useState("");
